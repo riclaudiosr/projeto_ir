@@ -1,0 +1,42 @@
+.form{
+    background-color: aqua;
+    padding: 5px;
+    max-width: 600px;
+    height: 600px;
+    background-color: rgb(131, 115, 115);
+    
+
+}
+body{text-align: center;
+    background-color:rgba(0, 0, 0, 0.652);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+}
+label{
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    
+}
+input{
+    margin-top: 10px; 
+    padding: 5px;
+    text-align: center;
+cursor: pointer;
+    
+}#caixa{
+color: rgba(0, 128, 0, 0.84);
+
+}
+input[type="submit"]{
+    background-color: green;
+    font-weight:bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    
+}input[type="submit"]:hover{
+    background-color: rgb(142, 228, 142);
+    box-shadow: inset 5px 3px 8px rgba(0, 0, 0, 0.697);
+}
